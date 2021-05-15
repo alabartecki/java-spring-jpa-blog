@@ -19,6 +19,8 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
+
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class Module1_Tests {
@@ -45,7 +47,9 @@ public class Module1_Tests {
             //e.printStackTrace();
         }
 
-        String message = "The field id should have two annotations @Id and @GeneratedValue(strategy = GenerationType.IDENTITY).";
+
+        String message;
+        message = "The field id should have two annotations @Id and @GeneratedValue(strategy = GenerationType.IDENTITY).";
         assertTrue(message, fieldAnnotations.length == 2);
 
         boolean hasIdAnnotation = false;
