@@ -3,6 +3,7 @@ INSERT INTO category(name) VALUES
 ('Computer Accessories'),
 ('Smart Home');
 
+
 INSERT INTO post (title, lead, body, author, date, category_id) VALUES
   ('Earbuds',
    'You have got to try these in your ears. So tiny and can even block the sounds of screaming toddlers if you so desire.',
